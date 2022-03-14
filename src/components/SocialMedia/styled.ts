@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled, { css } from 'styled-components'
 
 export const Wrapper = styled.ul`
   display: flex;
@@ -6,7 +6,7 @@ export const Wrapper = styled.ul`
   li {
     list-style: none;
   }
-`;
+`
 
 export const Item = styled.a`
   ${({ theme }) => css`
@@ -34,4 +34,4 @@ export const Item = styled.a`
       }
     }
   `}
-`;
+`
